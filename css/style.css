@@ -146,10 +146,8 @@ header{
 .menu__box {
     padding: 20px 0;
     display: inline-flex;
-    justify-content: flex-start;
     align-items: center;
     gap: 56px;
-	margin: 5px;
 }
 
 .menu__box li a {
@@ -167,6 +165,24 @@ header{
 .menu__box li a:hover {
 	color: #ac77cd;
     border-bottom: solid 2px #ac77cd;
+}
+.head_icons{
+	display: inline-flex;
+	gap: 20px;
+}
+.head_icon{
+	width: 30px;
+	height: 30px;
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+.search_icon{
+	background-image: url(../img/icons/search.png);
+}
+.basket_icon{
+	background-image: url(../img/icons/basket.png);
+	width: 40px;
+	height: 40px;
 }
 
 .btn {
