@@ -371,3 +371,12 @@ header {
 	margin: 10px 0;
 
 }
+
+/* explore */
+.explore_tit{
+	font-family: "Ribeye Marrow";
+	font-size: 50px;
+	color: #2723D3;
+	max-width: 400px;
+
+}
