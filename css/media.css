@@ -165,6 +165,13 @@
 	.sec_tit{
 		font-size: 43px;
 	}
+	.sellers_in{
+		flex-direction: column;
+	}
+	.sellers_r,
+	.sellers_l{
+		width: 100%;
+	}
 }
 @media screen and (max-width: 910px) {
 	.container {
@@ -173,6 +180,13 @@
 	.mini_all{
 		flex-direction: column;
 	}
+}
+@media screen and (max-width: 880px) {
+	.container {
+		max-width: 710px;
+	}
+
+
 }
 @media screen and (max-width: 780px) {
 	.container {
@@ -186,6 +200,7 @@
 		margin-top: 20px;
 	}
 }
+
 
 @media screen and (max-width: 540px) {
 	.container {
