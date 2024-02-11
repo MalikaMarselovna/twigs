@@ -295,4 +295,25 @@ header {
 }
 
 /* sellers*/
-
+.sellers_r{
+	padding: 15px;
+	width: 28%;
+}
+.sellers_l{
+	width: 72%;
+}
+.sellers_tit{
+	color: #D44DBE;
+	font-size: 35px;
+	font-family: "Roboto";
+	margin-bottom: 25px;
+}
+.sellers_txt{
+	font-family: "Roboto";
+	font-size: 15px;
+	line-height: 190%;
+}
+.btn_pink{
+	margin-top: 250px;
+	width: 220px;
+}
