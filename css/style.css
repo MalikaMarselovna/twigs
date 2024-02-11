@@ -200,12 +200,12 @@ header {
 	text-align: center;
 	font-size: 13px;
 	font-weight: 400;
-	transition: 3s;
+	transition: 1s;
 	width: 170px;
 }
 
 .btn:hover {
-	background: linear-gradient(94.78deg, #d464ea 11.19%, #cd0bba 93.72%);
+	transform: scale(0.8);
 }
 
 .main {
@@ -291,8 +291,5 @@ header {
 	color: var(--white, #2723D3);
 	background: none;
 	width: 190px;
-}
-
-.btn_blue:hover {
-	background: linear-gradient(94.78deg, #d464ea 11.19%, #cd0bba 93.72%);
+	transition: 1s;
 }

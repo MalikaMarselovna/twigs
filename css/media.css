@@ -162,6 +162,9 @@
 	.menu__box li:nth-child(4) {
 		padding-left: 0;
 	}
+	.sec_tit{
+		font-size: 43px;
+	}
 }
 @media screen and (max-width: 910px) {
 	.container {
@@ -177,6 +180,10 @@
 	}
 	.MAIN_TEXT{
 		margin-top: 200px;
+	}
+	.sec_tit{
+		font-size: 33px;
+		margin-top: 20px;
 	}
 }
 
