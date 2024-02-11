@@ -261,7 +261,10 @@ header {
 	font-family: "Roboto";
 	color: #B48DBE;
 }
-
+/* about */
+.about .container{
+	text-align: center;
+}
 .sec_txt {
 	width: 100%;
 	display: flex;
@@ -276,7 +279,7 @@ header {
 	font-family: "Roboto";
 	font-size: 54px;
 	text-align: center;
-	margin-bottom: 40px;
+	margin-bottom: 60px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -287,8 +290,9 @@ header {
 	border:1px solid #2723D3;
 	color: var(--white, #2723D3);
 	background: none;
+	width: 190px;
 }
 
-.btn:hover {
+.btn_blue:hover {
 	background: linear-gradient(94.78deg, #d464ea 11.19%, #cd0bba 93.72%);
 }
