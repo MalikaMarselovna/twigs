@@ -146,6 +146,7 @@ header {
 	height: 30px;
 	background-repeat: no-repeat;
 	background-size: cover;
+	transition: 1s;
 }
 
 .search_icon {
@@ -157,6 +158,9 @@ header {
 	width: 45px;
 	height: 45px;
 	margin-top: -7px;
+}
+.head_icon:hover{
+	transform: scale(1.2);
 }
 
 .basket_icon::after {
