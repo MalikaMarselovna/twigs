@@ -194,7 +194,7 @@ header {
 	justify-content: center;
 	align-items: center;
 	border-radius: 50px;
-	background: linear-gradient(94.78deg, #cd0bba 11.19%, #d464ea 93.72%);
+	background: #cd0bba;
 	border: none;
 	color: var(--white, #FFF);
 	text-align: center;
