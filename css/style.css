@@ -343,7 +343,7 @@ header {
 }
 
 .s_card:hover,
-.led_card {
+.led_card:hover {
 	transform: scale(1.09);
 	box-shadow: -14px -5px 35px -3px rgba(182, 181, 182, 0.6);
 
