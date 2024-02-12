@@ -476,3 +476,33 @@ header {
 		text-shadow: 0px 0px 2px rgb(48, 22, 128);
 	}
 }
+
+/* footer */
+footer{
+	background: #B48DBE;
+	padding: 25px;
+}
+.footer_main-info{
+	margin-top: 30px;
+}
+.logo_blue img{
+	width: 135px;
+	height: 55px;
+}
+.social{
+	gap: 10px;
+	display: inline-flex;
+}
+.social a{
+	font-family: "Roboto";
+	color: #FFF;
+	transition: 1s;
+	font-size: 15px;
+}
+.social a:hover{
+	border-bottom: 1px solid #FFF;
+}
+.confident{
+	display: flex;
+	
+}
