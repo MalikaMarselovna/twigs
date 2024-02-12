@@ -341,11 +341,13 @@ header {
 	transition: 1s;
 	margin-bottom: 20px;
 }
+
 .s_card:hover {
 	transform: scale(1.09);
 	box-shadow: -14px -5px 35px -3px rgba(182, 181, 182, 0.6);
 
 }
+
 .s_card__txt {
 	color: #D44DBE;
 	font-family: "Roboto";
@@ -465,7 +467,7 @@ header {
 			font-size: 2rem;
 		}
 
-	
+
 	}
 
 	.content {
@@ -481,24 +483,28 @@ header {
 }
 
 /* footer */
-footer{
+footer {
 	background: #B48DBE;
 	padding: 25px;
 }
-.footer_main-info{
+
+.footer_main-info {
 	margin-top: 30px;
 	margin-bottom: 40px;
 }
-.logo_blue img{
+
+.logo_blue img {
 	width: 135px;
 	height: 55px;
 }
-.social{
+
+.social {
 	gap: 10px;
 	display: inline-flex;
 }
+
 .social a,
-.link li a{
+.link li a {
 	font-family: "Roboto";
 	color: #FFF;
 	transition: 1s;
@@ -508,26 +514,290 @@ footer{
 
 
 }
-.social a:hover{
+
+.social a:hover {
 	border-bottom: 1px solid #FFF;
 }
-.confident{
+
+.confident {
 	display: flex;
 
 }
-.line{
+
+.line {
 	border-bottom: #2723D3 1px solid;
 	width: 95%;
 	margin: 15px 0;
 }
-.link{
+
+.link {
 	width: calc(100% / 4.2);
 	gap: 65px;
 }
-.links{
+
+.links {
 	margin-bottom: 100px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	gap: 10px;
 }
+
+/* lola */
+.beautiful_tit {
+	width: 580PX;
+	height: 415px;
+	top: 73.25px;
+	left: 79px;
+	color: #D44DBE;
+}
+
+.beautiful_right{
+	margin-top: 5%;
+	width: 50%;
+}
+
+.beautiful {
+	gap: 225px;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.beautiful_txt {
+	color: #B48DBE;
+	margin: 11% 0 0;
+	text-align: center;
+	font-family: Roboto;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 14px;
+}
+
+.star-rating {
+	display: flex;
+	align-items: center;
+	width: 160px;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	margin: 14px auto;
+	position: relative;
+}
+
+.star-rating input {
+	display: none;
+}
+
+.star-rating>label {
+	width: 30px;
+	height: 30px;
+	font-family: Arial;
+	font-size: 30px;
+	transition: 0.2s ease;
+	color: #2723D3;
+}
+
+.star-rating label:hover {
+	color: #ff69b4;
+	transition: 0.2s ease;
+}
+
+.star-rating label:active::before {
+	transform: scale(1.1);
+}
+
+.star-rating label::before {
+	content: '\2606';
+	position: absolute;
+	top: 0px;
+	line-height: 26px;
+}
+
+.star-rating input:checked~label:before {
+	content: '\2605';
+}
+
+@-moz-document url-prefix() {
+	.star-rating input:checked~label:before {
+		font-size: 36px;
+		line-height: 21px;
+	}
+}
+
+.square:first-child {
+	background: #2723D3;
+}
+
+.square {
+	width: 16px;
+	height: 16px;
+	border: 1px solid #2723D3;
+}
+
+.squares {
+	gap: 7px;
+	justify-content: center;
+	margin-bottom: 33px;
+}
+
+.led_cards {
+	gap: 8%;
+	flex-wrap: wrap;
+	margin-top: 5%;
+	justify-content: center;
+}
+
+.led_card_txt {
+	width: 230px;
+	height: 71px;
+	text-align: center;
+	font-size: 24px;
+	color: #2723D3;
+}
+
+.led_tit {
+	color: #D44DBE;
+	font-family: Rochester;
+	font-size: 53px;
+	font-weight: 400;
+	line-height: 65px;
+	text-align: center;
+}
+
+.arrow {
+	width: 40%;
+}
+
+.led_btn {
+	background: #ff69b4;
+	border: 1px solid #ff69b4;
+	border-radius: 22px;
+	width: 8%;
+	margin-bottom: 86px;
+	line-height: 42px;
+	font-weight: 700;
+	font-size: 12px;
+	margin-left: 45%;
+	color: white;
+	transition: 0.3s;
+}
+
+.guide_txt {
+	font-family: Roboto;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 14px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #D44DBE;
+}
+
+.guide_tit {
+	font-family: Roboto;
+	font-size: 41px;
+	font-weight: 400;
+	line-height: 52px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #D44DBE;
+	width: 484px;
+	margin: 7px 0 15px;
+}
+
+.dark {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 29px;
+	text-align: left;
+	width: 478px;
+	margin-bottom: 200px;
+}
+
+.guide_right {
+	margin-top: -84px;
+}
+
+.cards {
+	justify-content: center;
+}
+
+.guide_btn {
+	border: 1px solid #D44DBE;
+	border-radius: 22px;
+	line-height: 42px;
+	font-weight: 700;
+	font-size: 12px;
+	width: 27%;
+	color: #D44DBE;
+	transition: 0.3s;
+}
+
+.middle_img {
+	position: absolute;
+}
+
+.birthday_right {
+	margin-left: 116px;
+	margin-top: 84px;
+}
+
+.birthday_left {
+	margin-top: 80px;
+}
+
+.say_icon {
+	width: 197px;
+	height: 197px;
+}
+
+.say_tit {
+
+	font-family: Ribeye Marrow;
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 52px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: #B48DBE;
+	max-width: 634px;
+
+
+
+}
+.say_cards{
+	display: flex;
+	flex-wrap: nowrap;
+}
+.say_card_right {
+	margin-left: 5%;
+	margin-top: 6%;
+}
+
+.say_ic {
+	margin-left: 41%;
+}
+
+img.rot {
+	-webkit-animation: 13s linear 0s normal none infinite running rot;
+}
+
+@keyframes rot {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@-webkit-keyframes rot {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+/* lola finish */
