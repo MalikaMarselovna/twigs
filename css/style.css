@@ -665,7 +665,7 @@ footer {
 }
 .led_tit {
 	color: #D44DBE;
-	font-family: Rochester;
+	font-family:Nanum Brush Script ;
 	font-size: 53px;
 	font-weight: 400;
 	line-height: 65px;
@@ -676,21 +676,6 @@ footer {
 .arrow {
 	width: 40%;
 }
-
-.led_btn {
-	background: #ff69b4;
-	border: 1px solid #ff69b4;
-	border-radius: 22px;
-	width: 8%;
-	margin-bottom: 86px;
-	line-height: 42px;
-	font-weight: 700;
-	font-size: 12px;
-	margin-left: 45%;
-	color: white;
-	transition: 0.3s;
-}
-
 .guide_txt {
 	font-family: Roboto;
 	font-size: 12px;
