@@ -341,6 +341,9 @@ header {
 	transition: 1s;
 	margin-bottom: 20px;
 }
+.led_card{
+	transition: 2s;
+}
 
 .s_card:hover,
 .led_card:hover {
