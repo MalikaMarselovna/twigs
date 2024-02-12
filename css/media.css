@@ -2,6 +2,28 @@
 	.container {
 		max-width: 960px;
 	}
+	
+	.beautiful {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.cards {
+		flex-wrap: wrap;
+		gap: 8%;
+	}
+
+	.middle_img {
+		position: relative;
+	}
+
+	.birthday_right {
+		margin: 0;
+	}
+	.beautiful{
+		display: flex;
+		flex-wrap: wrap;
+	}
 }
 
 @media screen and (max-width: 1270px) {
@@ -194,6 +216,10 @@
 	.sellers_l {
 		width: 100%;
 	}
+	
+	.say_cards {
+		flex-wrap: wrap;
+	}
 }
 
 @media screen and (max-width: 910px) {
@@ -265,6 +291,11 @@
 		padding: 20px;
 		margin-top: -30px;
 	}
+	
+	.say_icon {
+		width: 50%;
+		height: 50%
+	}
 }
 
 
@@ -284,68 +315,6 @@
 	.flip-box {
 		width: 300px;
 	}
-}
-
-@media screen and (max-width: 450px) {
-	.container {
-		max-width: 100%;
-	}
-}
-
-@media screen and (max-width: 1300px) {
-	.container {
-		max-width: 960px;
-	}
-
-	.beautiful {
-		flex-wrap: wrap;
-		justify-content: center;
-	}
-
-	.cards {
-		flex-wrap: wrap;
-		gap: 8%;
-	}
-
-	.middle_img {
-		position: relative;
-	}
-
-	.birthday_right {
-		margin: 0;
-	}
-	.beautiful{
-		display: flex;
-		flex-wrap: wrap;
-	}
-}
-
-@media screen and (max-width: 990px) {
-	.container {
-		max-width: 750px;
-	}
-
-	.say_cards {
-		flex-wrap: wrap;
-	}
-}
-
-@media screen and (max-width: 780px) {
-	.container {
-		max-width: 510px;
-	}
-
-	.say_icon {
-		width: 50%;
-		height: 50%
-	}
-}
-
-@media screen and (max-width: 540px) {
-	.container {
-		max-width: 420px;
-	}
-
 	.beautiful_tit {
 		width: 486px;
 	}
@@ -382,3 +351,7 @@
 		margin: 94% 0 0;
 	}
 }
+
+
+
+
