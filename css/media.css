@@ -25,6 +25,14 @@
 	.main_tit{
 		font-size: 50px;
 	}
+	.sellers_r,
+	.sellers_l{
+		width: 100%;
+	}
+	.btn_pink{
+		margin-top: 30px;
+		margin-bottom: 50px;
+	}
 }
 @media screen and (max-width: 990px) {
 	.container {
@@ -180,12 +188,36 @@
 	.mini_all{
 		flex-direction: column;
 	}
+	.flip-box{
+		width: 400px;
+		height: 450px;
+	}
+	.links{
+		flex-direction: column;
+	}
+	.link{
+		width: 400px;
+	}
+	.flip-boxes{
+		flex-direction: column;
+	}
+	.explore_tit{
+		width: 90%;
+	}
+	.btn_pink {
+		margin-top: 50px;
+		width: 220px;
+		margin-bottom: 50px;
+	}
 }
 @media screen and (max-width: 880px) {
 	.container {
 		max-width: 710px;
 	}
 
+	.MAIN_TEXT{
+		margin-top: 130px;
+	}
 
 }
 @media screen and (max-width: 780px) {
@@ -193,11 +225,18 @@
 		max-width: 510px;
 	}
 	.MAIN_TEXT{
-		margin-top: 200px;
+		margin-top: 60px;
 	}
 	.sec_tit{
 		font-size: 33px;
 		margin-top: 20px;
+	}
+	.mini {
+		width: 95%;
+		background: #FCF1FF;
+		margin: 0 auto;
+		padding: 20px;
+		margin-top: -30px;
 	}
 }
 
@@ -205,6 +244,15 @@
 @media screen and (max-width: 540px) {
 	.container {
 		max-width: 420px;
+	}
+	.flip_box{
+		width: 300px;
+	}
+	.link{
+		width: 300px;
+	}
+	.flip-box{
+		width: 300px;
 	}
 }
 
