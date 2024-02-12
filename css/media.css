@@ -314,6 +314,10 @@
 	.birthday_right {
 		margin: 0;
 	}
+	.beautiful{
+		display: flex;
+		flex-wrap: wrap;
+	}
 }
 
 @media screen and (max-width: 990px) {
