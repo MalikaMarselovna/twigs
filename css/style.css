@@ -70,7 +70,13 @@ body {
 	margin: 0 auto;
 	padding: 0 15px;
 }
-
+.container1{
+	max-width: 1440px;
+	width: 100%;
+	min-width: 320px;
+	margin: 0 auto;
+	padding: 0 15px;
+	}
 .dn {
 	display: none;
 }
