@@ -208,6 +208,7 @@ header {
 	font-weight: 400;
 	transition: 1s;
 	width: 170px;
+	margin: 0 auto;
 }
 
 .btn:hover {
@@ -341,7 +342,8 @@ header {
 	transition: 1s;
 	margin-bottom: 20px;
 }
-.led_card{
+
+.led_card {
 	transition: 2s;
 }
 
@@ -557,7 +559,7 @@ footer {
 	color: #D44DBE;
 }
 
-.beautiful_right{
+.beautiful_right {
 	margin-top: 5%;
 	width: 50%;
 }
@@ -581,10 +583,9 @@ footer {
 .star-rating {
 	display: flex;
 	align-items: center;
-	width: 160px;
 	flex-direction: row-reverse;
 	justify-content: space-between;
-	margin: 14px auto;
+	margin: 14px;
 	position: relative;
 }
 
@@ -645,28 +646,29 @@ footer {
 }
 
 .led_cards {
-	gap: 8%;
-	flex-wrap: wrap;
+	width: 100%;
 	margin-top: 5%;
-	justify-content: center;
 }
 
 .led_card_txt {
-	width: 230px;
+	max-width: 267px;
+	margin: 0 auto;
 	height: 71px;
 	text-align: center;
 	font-size: 24px;
 	color: #2723D3;
 	font-family: "Roboto";
 }
-.button_flex{
+
+.button_flex {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
+
 .led_tit {
 	color: #D44DBE;
-	font-family:Nanum Brush Script ;
+	font-family: Nanum Brush Script;
 	font-size: 53px;
 	font-weight: 400;
 	line-height: 65px;
@@ -677,6 +679,11 @@ footer {
 .arrow {
 	width: 40%;
 }
+
+.let_card {
+	width: calc(100% / 4.5);
+}
+
 .guide_txt {
 	font-family: Roboto;
 	font-size: 12px;
@@ -777,84 +784,95 @@ footer {
 
 
 /* Follow */
-.Follow{
+.Follow {
 	left: 28px;
 	margin-top: 100px;
-	}
-	.follow_head-img-block{
-	  display: flex;
-	  justify-content: center;
-	}
-	.follow_title{
+}
+
+.follow_head-img-block {
+	display: flex;
+	justify-content: center;
+}
+
+.follow_title {
 	/* display: flex;
 	justify-content: center; */
 	font-family: Ribeye Marrow;
 	font-size: 40px;
 	font-weight: 400;
 	line-height: 52px;
-	letter-spacing: 0em;
 	text-align: center;
 	color: #B48DBE;
 	margin-top: 50px;
-	}
-	.follow_head-img {
-	  border-radius: 50%;
-	  -webkit-transition: -webkit-transform .8s ease-in-out;
-			  transition:         transform .8s ease-in-out;
-	}
-	.follow_head-img:hover {
-	  -webkit-transform: rotate(180deg); 
-			  transform: rotate(180deg); 
-	}
-	.card_1{
+}
+
+.follow_head-img {
+	border-radius: 50%;
+	-webkit-transition: -webkit-transform .8s ease-in-out;
+	transition: transform .8s ease-in-out;
+}
+
+.follow_head-img:hover {
+	-webkit-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+.card_1 {
 	width: 288px;
 	height: 391px;
 	margin-top: 200px;
 	margin-left: 20px;
 	position: relative;
-	}
-	.card_2{
+}
+
+.card_2 {
 	width: 230px;
 	height: 304px;
 	position: static;
 	margin-bottom: 283px;
 	margin-left: -90px;
-	}
-	.card_3{
-	 width: 302px;
-	 height: 338px;
-	 margin-left: -100px;
-	 margin-bottom: -10px;
-	}
-	.card_4{
+}
+
+.card_3 {
+	width: 302px;
+	height: 338px;
+	margin-left: -100px;
+	margin-bottom: -10px;
+}
+
+.card_4 {
 	width: 230px;
 	height: 230px;
 	margin-left: 150px;
 	margin-bottom: 60px;
 	position: relative;
-	}
-	.card_5{
+}
+
+.card_5 {
 	width: 331px;
 	height: 326px;
 	margin-bottom: 155px;
 	margin-left: -55px;
-	}
-	.card_6{
+}
+
+.card_6 {
 	width: 245px;
 	height: 313px;
 	margin-left: -170px;
 	margin-bottom: -30px;
-	}
-	.card {
-	  -webkit-transition: all 1s ease;
-			  transition: all 1s ease;
-	}
-	.card:hover {
-	  -webkit-transform: rotate(15deg); 
-			  transform: rotate(15deg); 
-	}
-	
-img.rot { 
+}
+
+.card {
+	-webkit-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.card:hover {
+	-webkit-transform: rotate(15deg);
+	transform: rotate(15deg);
+}
+
+img.rot {
 	-webkit-animation: 13s linear 0s normal none infinite running rot;
 }
 
