@@ -593,6 +593,7 @@ footer {
 	justify-content: space-between;
 	margin: 14px;
 	position: relative;
+	justify-content: center;
 }
 
 .star-rating input {
